@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Credenciais e tokens
+# *.ps1  # Comentado para permitir scripts de deploy
+*.bat
+*.sh
+*credentials*
+*token*
+*password*
+*senha*
+.env
+.env.local
+
+# Scripts com tokens (adicionar manualmente se necessario)
+# config-token.ps1
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (opcional - descomente se não quiser versionar dados)
+# *.csv
+# *.xlsx
+
+
+
+
+
